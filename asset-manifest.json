@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Lorem-Ipsum-Generator/static/css/main.b8cc9c3e.chunk.css",
+    "main.js": "/Lorem-Ipsum-Generator/static/js/main.ece20399.chunk.js",
+    "main.js.map": "/Lorem-Ipsum-Generator/static/js/main.ece20399.chunk.js.map",
+    "runtime-main.js": "/Lorem-Ipsum-Generator/static/js/runtime-main.491843db.js",
+    "runtime-main.js.map": "/Lorem-Ipsum-Generator/static/js/runtime-main.491843db.js.map",
+    "static/js/2.af07b5d4.chunk.js": "/Lorem-Ipsum-Generator/static/js/2.af07b5d4.chunk.js",
+    "static/js/2.af07b5d4.chunk.js.map": "/Lorem-Ipsum-Generator/static/js/2.af07b5d4.chunk.js.map",
+    "index.html": "/Lorem-Ipsum-Generator/index.html",
+    "static/css/main.b8cc9c3e.chunk.css.map": "/Lorem-Ipsum-Generator/static/css/main.b8cc9c3e.chunk.css.map",
+    "static/js/2.af07b5d4.chunk.js.LICENSE.txt": "/Lorem-Ipsum-Generator/static/js/2.af07b5d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.491843db.js",
+    "static/js/2.af07b5d4.chunk.js",
+    "static/css/main.b8cc9c3e.chunk.css",
+    "static/js/main.ece20399.chunk.js"
+  ]
+}
