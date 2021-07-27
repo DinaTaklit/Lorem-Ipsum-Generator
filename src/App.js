@@ -3,9 +3,19 @@ import data from './data'
 function App() {
   const [count, setCount] = useState(0)
   const [text, setText] = useState([])
+
   const handleSubmit = e => {
     e.preventDefault()
+    let amount = count;
+    if (count <= 0) {
+      amount = 1
+    }
+    if (count > data.length - 1) {
+      amount = data.length - 1
+    }
+    setText(data.slice(0, amount))
   }
+  
   return (
     <section className="section-center">
       <h3>Tired of boring lorem ipsum?</h3>
@@ -17,8 +27,7 @@ function App() {
         <button type="submit" className="btn"> Generate</button>
       </form>
       <article className="lorem-text">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.</p>
+        {text.map((txt , index)=> <p key={index}>{txt}</p>)}
       </article>
     </section>
   );
